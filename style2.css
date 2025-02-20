@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe7d3;
+    color: #aa602f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #8a7610;
+}
+
+.bio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.bio-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #aa602f;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bio-image img:hover {
+    transform: scale(1.05) rotate(1deg);
+}
+
+.bio-sections {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+.bio-info {
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bio-info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bio-info h2 {
+    color: #8a7610;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bio-info h2 img {
+    width: 20px;
+    height: 20px;
+} 
+
+.bio-info p, .bio-info ul {
+    font-size: 1.0em;
+    font-family: 'Courier New';
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: justify;
+}
+
+.bio-info ul li .bio-info p {
+    margin-bottom: 5px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #8a7610;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    box-shadow: 0 0 20px #a07659;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #1d1f1f;
+    box-shadow: 0 0 30px #1d1f1f;
+}
